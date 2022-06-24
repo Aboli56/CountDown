@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtnSJzSnUQQBy0LOTmU2Oha5NLwlF66YeakgYrWpItk2r9xpC8IciIXbkJkkF6p7eBf3Q&usqp=CAU);
+    background-size: cover;
+    background-position: center;
+}
+.c1{
+    width: 700px;
+    height: 250px;
+    color: rgb(37, 201, 241);
+    background-color: white;
+
+}
+h1{
+    text-align: center;
+    font-size: 3.6rem;
+}
+.countdown-container{
+    display: flex;
+}
+.big-text{
+    margin: 0 2.5rem;
+    font-size: 3.3rem;
+}
+.sec {
+    text-align: center; 
+    margin-left: 30px;
+}
+.sec span{
+    font-size: 1.5rem;
+}
